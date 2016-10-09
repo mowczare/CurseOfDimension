@@ -1,0 +1,27 @@
+set xlabel "R"
+set ylabel "Frequency"
+set term png #output terminal and file
+set output "HyperBallDistances-dimension-10.png"
+plot "HyperBallDistances-dimension-10" notitle
+set output "HyperBallDistances-dimension-50.png"
+plot "HyperBallDistances-dimension-50" notitle
+set output "HyperBallDistances-dimension-75.png"
+plot "HyperBallDistances-dimension-75" notitle
+set output "HyperBallDistances-dimension-100.png"
+plot "HyperBallDistances-dimension-100" notitle
+set output "HyperBallDistances-dimension-150.png"
+plot "HyperBallDistances-dimension-150" notitle
+set output "HyperBallDistances-dimension-200.png"
+plot "HyperBallDistances-dimension-200" notitle
+set output "HyperCubeDistances-dimension-10.png"
+plot "HyperCubeDistances-dimension-10" notitle
+set output "HyperCubeDistances-dimension-50.png"
+plot "HyperCubeDistances-dimension-50" notitle
+set output "HyperCubeDistances-dimension-75.png"
+plot "HyperCubeDistances-dimension-75" notitle
+set output "HyperCubeDistances-dimension-100.png"
+plot "HyperCubeDistances-dimension-100" notitle
+set output "HyperCubeDistances-dimension-150.png"
+plot "HyperCubeDistances-dimension-150" notitle
+set output "HyperCubeDistances-dimension-200.png"
+plot "HyperCubeDistances-dimension-200" notitle
